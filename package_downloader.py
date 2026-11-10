@@ -47,7 +47,7 @@ if not isinstance(ThreadPoolExecutor, type):      # still a lazy stand-in: load 
     ThreadPoolExecutor = importlib.import_module("concurrent.futures.thread").ThreadPoolExecutor
 
 APP_NAME = "Package Downloader"
-APP_VERSION = "4.1"
+APP_VERSION = "4.1.0"
 INSTALL_SUFFIX = " - Needed Packages Install"
 FROZEN = bool(getattr(sys, "frozen", False))
 IS_WIN = os.name == "nt"
