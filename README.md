@@ -17,11 +17,19 @@
   <img alt="PySide6" src="https://img.shields.io/badge/UI-PySide6-41cd52">
 </p>
 
+<p align="center">
+  <a href="https://github.com/sliver301/Py-Package-Downloader/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Package%20Downloader.exe-2f81f7?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <br>
+  <sub>Latest release · Windows 10/11 · no install needed, just run the exe</sub>
+</p>
+
 ---
 
 ## Why
 
-Locked-down or air-gapped PCs can't run `pip install`. Copying packages by hand means chasing every dependency, matching the right Python version and Windows build, and hoping nothing is missing. Package Downloader does all of that for you:
+**Got code from an AI and just want it to run?** You don't need to know what `requests`, `openpyxl` or `PIL` are, or which ones the script needs. Drop the script (or the whole project folder) into Package Downloader and it reads the code, works out every package it imports, and gets them for you. Click **Install now on this PC** and the code is ready to run. Do it again every time the AI hands you a new version, and nothing goes missing.
+
+**Need it on a PC without internet?** Locked-down or air-gapped PCs can't run `pip install`. Copying packages by hand means chasing every dependency, matching the right Python version and Windows build, and hoping nothing is missing. Package Downloader does all of that for you:
 
 1. On a PC **with** internet, pick what you need: from PyPI's most downloaded list, a PyPI search, or a scan of your own scripts and folders.
 2. It resolves every dependency **for the offline PC's exact Python version and Windows type**, and downloads only ready-made builds (wheels).
@@ -57,6 +65,9 @@ Locked-down or air-gapped PCs can't run `pip install`. Copying packages by hand 
 </details>
 
 ## Quick start
+
+### Download
+Get **`Package Downloader.exe`** from the [latest release](https://github.com/sliver301/Py-Package-Downloader/releases/latest) and double-click it. It's a single file: nothing to install, and it brings its own pip.
 
 ### Run from source
 Needs Python 3.8+ on Windows.
