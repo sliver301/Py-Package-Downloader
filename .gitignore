@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller
+build/
+dist/
+*.spec
+build_info.json
+Package Downloader.exe
+
+# Local, machine-specific folders
+PyInstaller offline/
+Output/
+*- Needed Packages Install.exe
+*- Needed Packages Install.zip
