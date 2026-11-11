@@ -116,6 +116,10 @@ You can also drag an installer onto `Package Downloader.exe` to install it.
 - Windows SmartScreen may warn about a self-built, unsigned exe. Click **More info → Run anyway**.
 - Settings are stored in `%LOCALAPPDATA%\Package Downloader\settings.json`.
 
+## 🤖 Made with AI
+
+This app is about 99% vibe-coded: I described what I wanted, tested it on my own PC, and an AI assistant (Claude) wrote the code. It works great for me every day, but it hasn't been through a formal code review. Bug reports and pull requests are very welcome.
+
 ## License
 
 Copyright (C) 2026 Package Downloader contributors.
